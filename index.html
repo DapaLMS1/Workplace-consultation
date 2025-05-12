@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Health and Safety Consultation in Dental Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F2F2F2; /* Light Grey */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 750px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.2em;
+            color: #532A8C; /* Dark Purple */
+            margin-bottom: 30px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            border-bottom: 2px solid #C3ACE8; /* Light Purple */
+        }
+        .tab {
+            padding: 15px 25px;
+            cursor: pointer;
+            background: #9D8ABB; /* Medium Purple */
+            border: none;
+            border-radius: 8px 8px 0 0;
+            color: #F2F2F2; /* Light Grey */
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
+            margin-right: 5px;
+        }
+        .tab:last-child {
+            margin-right: 0;
+        }
+        .tab.active {
+            background: #7ABF49; /* Green */
+            color: white;
+        }
+        .tab:hover {
+            background: #96BF78; /* Light Green */
+            color: white;
+        }
+        .tab-content {
+            padding: 25px;
+            text-align: left;
+            border: 2px solid #C3ACE8; /* Light Purple */
+            border-radius: 0 0 10px 10px;
+            background: white;
+            margin-top: -2px;
+        }
+        .tab-content > div {
+            display: none;
+        }
+        .tab-content > div.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h2 {
+            color: #7ABF49; /* Green */
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #532A8C; /* Dark Purple */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .important {
+            font-weight: bold;
+            color: #D32F2F; /* A shade of red for emphasis */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Work Health and Safety Consultation in Our Dental Practice</h1>
+        <ul class="tabs">
+            <li class="tab active" data-tab="how-to-consult">How to Consult</li>
+            <li class="tab" data-tab="when-to-consult">When to Consult</li>
+            <li class="tab" data-tab="meaningful-consultation">Meaningful Consultation</li>
+            <li class="tab" data-tab="whs-complaints">WHS Complaints Procedure</li>
+        </ul>
+        <div class="tab-content">
+            <div id="how-to-consult" class="active">
+                <h2>How Our Dental Practice Consults on WHS</h2>
+                <p>Talking about Work Health and Safety (WHS) in our dental practice is very important to make sure everyone has a safe and healthy place to work. We want our ways of talking to be flexible and work well for everyone in the team.</p>
+                <h3>Ways We Might Talk in Our Practice:</h3>
+                <ul>
+                    <li><strong>Regular Team Meetings:</strong> Safety will be a regular topic at these meetings, so everyone can share their thoughts.</li>
+                    <li><strong>Toolbox Talks:</strong> These are short talks about specific safety issues that are important for what we do each day.</li>
+                    <li><strong>Specific Safety Meetings:</strong> We will have these meetings when we need to discuss particular safety worries or when things change with how we do things or the equipment we use.</li>
+                    <li><strong>Health and Safety Representative (HSR):</strong> If the team thinks it's a good idea, we can choose an HSR to speak for a group of workers (for example, all the dental assistants). This HSR would be part of all talks about safety. You don't have to have an HSR if the workplace doesn't feel it's needed.</li>
+                </ul>
+                <p>No matter how we talk, it will happen regularly, and everyone involved will agree on how it works. If we have agreed ways of talking, we will always use them.</p>
+                <h3>As Employers, We Need To:</h3>
+                <ul>
+                    <li>Make sure all dental assistants and other staff can have a say in making decisions that affect their health and safety.</li>
+                    <li>Listen to and think about your ideas and worries about WHS.</li>
+                    <li>Work together with you to fix any WHS problems quickly.</li>
+                    <li>Ask for your input before we make any changes that could affect your work. This includes things like getting new dental equipment or materials, changing how we do things, or changing the layout of the surgery.</li>
+                </ul>
+                <p>We will keep records of any decisions made about the health and safety of workers and who was involved in the talks.</p>
+            </div>
+
+            <div id="when-to-consult">
+                <h2>When We Need to Talk About WHS in Our Dental Practice</h2>
+                <p>It's important to talk about safety in different situations to protect the health and safety of our dental assistants and the whole team. We must consult when we are:</p>
+                <ul>
+                    <li><strong>Finding hazards and analyse the risks:</strong> For example, looking at the risks of handling sharp items, being exposed to radiation from X-ray machines, or possible problems with how you sit or move while working.</li>
+                    <li><strong>Thinking about making changes that could affect your health and safety:</strong> This might include changes to how we sterilise equipment, using new dental materials, or changing the patient appointment system in a way that could affect your workload or stress.</li>
+                    <li><strong>Making decisions about how we do things that involve workers or health issues:</strong> Such as creating new rules for infection control, getting rid of waste (including clinical waste), or what to do in an emergency.</li>
+                    <li><strong>Checking on the health and safety of workers:</strong> This could involve talking about any health issues that come up because of work or looking at reports of any incidents.</li>
+                    <li><strong>Giving information and training:</strong> When we get new equipment, substances, or start new ways of doing things that need specific safety training (for example, using a new type of cleaner or operating a new diagnostic machine).</li>
+                </ul>
+                <p>If we can't agree on a safety issue after talking about it properly, we might ask a WorkCover NSW inspector to help us (phone 13 10 50). Once we've fixed the issue, we will write down what happened and let everyone on the team know.</p>
+                <p>In short, consultation means sharing important information with you, our dental assistants and staff, and giving you a real chance to share your views, raise any safety worries, and help make decisions.</p>
+                <p>Remember, <span class="important">Section 48 of the WHS Act</span> says what we need to do when we consult and share information, and <span class="important">section 49</span> talks about the plan for consultation.</p>
+            </div>
+
+            <div id="meaningful-consultation">
+                <h2>Making Sure Talks About WHS are Meaningful in Our Dental Practice</h2>
+                <p>It's really important that when we talk about WHS, it's not just something we have to do, but a real conversation. If there's a safety problem, WorkCover NSW will probably analyse how we consult. Be ready for questions like:</p>
+                <ul>
+                    <li>Did we talk about this specific safety issue?</li>
+                    <li>When did we talk about it?</li>
+                    <li>Who was involved in the conversation (for example, dental assistants, dentists, practice manager)?</li>
+                    <li>How did we talk about it (for example, in a team meeting, one-on-one)?</li>
+                    <li>What was the result of the conversation?</li>
+                    <li>Where is the written proof of our conversation (for example, meeting notes, safety discussion notes)?</li>
+                </ul>
+            </div>
+
+            <div id="whs-complaints">
+                <h2>How to Make a WHS Complaint in Our Dental Practice</h2>
+                <p>If you, as a dental assistant or any other employee, have a question or worry about a safety issue at work, please follow these steps:</p>
+                <ol>
+                    <li><strong>Tell the person in our workplace who is responsible for WHS.</strong> This might be a safety officer, a member of a safety committee (if we have one), or the practice manager.</li>
+                    <li><strong>The WHS contact person will officially tell the employer (for example, the head dentist or the owner of the practice) about the issue.</strong></li>
+                    <li><strong>The employer needs to respond to the complaint in a reasonable time and explain what will be done to fix the problem.</strong></li>
+                    <li><strong>If the problem isn't fixed after a reasonable time, the WHS Representative(s) (if we have them) can ask a WorkCover NSW inspector to come and check the workplace for safety.</strong> They can do this without needing to have another meeting with the employer if needed. You can contact WorkCover NSW directly by calling 13 10 50.</li>
+                </ol>
+                <p><span class="important">Unlawful Dismissal:</span> The WHS Act protects workers. It is against the law to sack, treat unfairly, or discriminate against an employee because they are a Health and Safety Representative (HSR), a committee member, or because they are doing their job under the Act. It is also against the law to sack or treat an employee unfairly for raising a genuine health and safety worry or making a complaint about safety.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content > div');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const targetTab = document.getElementById(tab.dataset.tab);
+                tabs.forEach(t => t.classList.remove('active'));
+                tabContents.forEach(tc => tc.classList.remove('active'));
+                tab.classList.add('active');
+                targetTab.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
+
